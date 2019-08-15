@@ -85,9 +85,6 @@ void DisLife(vector<int>& vec)
 vector<int> OneCycle(vector<int>& vec)
 {
     vector<int> after;
-    int p0 = 0,p1 = 0,p2 = 0,p3 = 0;
-    int p4 = 0,p5 = 0,p6 = 0,p7 = 0;
-    int count = 0;
 
     //全图每个点都check一遍，check每个点周围8个点
     for(int i = 0;i < wide;i++)
